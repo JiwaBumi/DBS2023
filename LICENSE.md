@@ -1,4 +1,3 @@
 Owner: JiwaBumi
-
-Full permission to: - FeliksMakarios [Professor]
-                    - Any other assigned group members [Team Member]
+Professor: FeliksMakarios
+Team Member: [Github account unknown as of now]
