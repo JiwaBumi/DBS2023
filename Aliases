@@ -19,4 +19,4 @@ JOIN
 Dishes D on O.DishID = D.DishID  
 
 As you can see [TableName] [Alias] like Customer C defines it. So as long as its defined, you can use C.CustomerID instead of Customer.CustomerID  
-Arguably you can use full table name instead of alias if you wish
+Arguably you can use full table name instead of alias if you wish. just replace the alias with full table name on SELECT, and on join just dont mention alias/letters
