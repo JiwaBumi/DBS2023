@@ -1,0 +1,22 @@
+Define the alias, then use it as a way to save time  
+Example O from Order table, C from Customer Table, and D from Dishes table   
+Then  
+
+SELECT  
+O.OrderID,    //PK  
+O.CustomerID  //FK  
+O.DishID   //FK  
+O.OrderTime,  
+C.CustomerID,   //PK  
+C.CustomerName,  
+D.DishID  //PK   
+D.DishName  
+FROM  
+Order O  
+JOIN  
+Customer C on O.CustomerID = C.CustomerID  
+JOIN  
+Dishes D on O.DishID = D.DishID  
+
+As you can see [TableName] [Alias] like Customer C defines it. So as long as its defined, you can use C.CustomerID instead of Customer.CustomerID  
+Arguably you can use full table name instead of alias if you wish
