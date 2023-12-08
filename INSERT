@@ -1,3 +1,11 @@
+CREATING  
+CREATE TABLE TableName (  
+PlaceholderName1 VARCHAR(255) NOT NULL UNIQUE;  
+PlaceholderName2 INT PRIMARY KEY  
+PlaceholderName3 INT REFERENCES AnotherTablesName(AttributeName);  
+)  
+
+INSERTION  
 INSERT INTO [TableName] ([Column1], [Column2]....)  
 VALUES  
 ('Column1Value', 'Column2Value'....);  
