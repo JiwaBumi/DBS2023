@@ -1,0 +1,5 @@
+INSERT INTO [TableName] ([Column1], [Column2]....)  
+VALUES  
+('Column1Value', 'Column2Value'....);  
+
+INTEGERS and DECIMALS do not need ' ' Only VARCHAR does
